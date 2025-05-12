@@ -1,42 +1,23 @@
----
-name: '기본 컨벤션'
-description: '기본 컨벤션입니다.'
----
-
-## PR 유형
-
-- [] 새로운 기능 추가
-- [] 버그 수정
-- [] CSS 등 사용자 UI 디자인 변경
-- [] 코드에 영향을 주지 않는 변경사항(오타 수정, 탭 사이즈 변경, 변수명 변경)
-- [] 코드 리팩토링
-- [] 주석 추가 및 수정
-- [] 문서 수정
-- [] 테스트 추가, 테스트 리팩토링
-- [] 빌드 부분 혹은 패키지 매니저 수정
-- [] 파일 혹은 폴더명 수정
-- [] 파일 혹은 폴더 삭제
-
+name: "✨ Feature"
+description: "새로운 기능 추가"
+labels: ["feature"]
 body:
 
 - type: textarea
   attributes:
-  label: 📄 PR 상세
-  description: PR 내용을 적어주세요.
-  placeholder: 규칙에 맞게 작성하여주세요.
+  label: 📄 설명
+  description: 새로운 기능에 대한 설명을 작성해 주세요.
+  placeholder: 자세히 적을수록 좋습니다!
   validations:
   required: true
-
-## PR 체크리스트
-
-<!-- PR이 다음 요구 사항을 충족하는지 확인하세요. -->
-
-- [] 커밋 메시지 컨벤션에 맞게 작성했습니다.
-- [] 변경 사항에 대한 테스트를 했습니다.(버그 수정/기능에 대한 테스트).
-
-## 이슈
-
-<!-- 이슈 키워드와 함께 #을 입력한 후 이슈 번호를 선택해주세요. -->
-<!-- 에시 : resolves #1 -->
-
-resolves #
+- type: textarea
+  attributes:
+  label: ✅ 작업할 내용
+  description: 할 일을 체크박스 형태로 작성해주세요.
+  placeholder: 최대한 세분화 해서 적어주세요!
+  validations:
+  required: true
+- type: textarea
+  attributes:
+  label: 🙋🏻 참고 자료
+  description: 참고 자료가 있다면 작성해 주세요.
