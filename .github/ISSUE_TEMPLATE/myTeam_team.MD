@@ -1,8 +1,10 @@
 ---
 
-name: "✨ Feature"
-description: "새로운 기능 추가"
-labels: ["feature"]
+name: fdsfdsfdsf
+about: 버그를 신고하여 문제 해결에 도움을 주세요.
+title: '[버그]dsf 문제 설명'
+labels: bugff
+assignees: ''
 body:
 
 - type: textarea
