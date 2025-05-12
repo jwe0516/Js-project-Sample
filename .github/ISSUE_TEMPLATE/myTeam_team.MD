@@ -1,3 +1,5 @@
+---
+
 name: "✨ Feature"
 description: "새로운 기능 추가"
 labels: ["feature"]
@@ -21,3 +23,4 @@ body:
   attributes:
   label: 🙋🏻 참고 자료
   description: 참고 자료가 있다면 작성해 주세요.
+  ***
